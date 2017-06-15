@@ -1,6 +1,6 @@
-var toolloader= require ('tool.loader');
+var loader= require ('tool.loader');
 
 
 module.exports.loop = function () {
-	toolloader.run();
+	loader.run();
 }
