@@ -9,7 +9,7 @@ var toolloader = {
 
 		for (var kro in Game.rooms) {
 				console.log(JSON.stringify(Game.rooms[kro]))
-				var sou=Game.rooms[ksp].find('FIND_SOURCES')
+				var sou=Game.rooms[kro].find('FIND_SOURCES')
 				console.log(JSON.stringify(sou))
 		}
 
