@@ -1,5 +1,4 @@
 var toolloader = {
-
     run: function() {
         console.log('Loading...');
     }
