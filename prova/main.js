@@ -1,5 +1,6 @@
+var toolloader= require (tool.loader);
+
+
 module.exports.loop = function () {
-
-console.log(JSON.stringify(Game.creeps) )
-
+	toolloader.run();
 }
