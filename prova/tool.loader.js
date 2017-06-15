@@ -1,3 +1,4 @@
+
 var toolloader = {
     run: function() {
         console.log('Loading...');
@@ -8,6 +9,12 @@ var toolloader = {
 					Memory.mysources[kso]={'con':0, 'max':1}
 				}
 		}
+
+		if (!Memory.maxcreep) {
+			var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester');
+		}
+
+
 
 		console.log(JSON.stringify(Memory.mysources))
     }
