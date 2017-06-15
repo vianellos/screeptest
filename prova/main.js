@@ -1,5 +1,5 @@
 module.exports.loop = function () {
 
-console.log(Game.creeps)
+console.log(JSON.stringify(Game.creeps) )
 
 }
