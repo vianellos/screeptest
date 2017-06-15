@@ -3,7 +3,7 @@ var toolloader = {
         console.log('Loading...');
 		for (var ksp in Game.spawns) {
 				console.log(JSON.stringify(Game.spawns[ksp]))
-				var sou=Game.spawns[ksp].room.find('FIND_SOURCES_ACTIVE')
+				var sou=Game.spawns[ksp].room.find('FIND_SOURCES')
 				console.log(JSON.stringify(sou))
 		}
 
