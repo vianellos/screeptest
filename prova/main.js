@@ -1,5 +1,5 @@
 module.exports.loop = function () {
-console.log('ciaociao4')
 
+console.log(Game.creeps)
 
 }
